@@ -1,0 +1,103 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.bg-fruits-counter-card {
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.mango-count {
+  color: #ffd569;
+}
+
+.banana-count {
+  color: #ffd569;
+}
+
+.mango-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banana-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 250px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 28px;
+  width: 90px;
+  font-family: 'Roboto';
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-fruits-counter-card {
+    width: 90%;
+    padding: 30 0;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+  .heading {
+    font-size: 48px;
+    margin: 40px 0px;
+  }
+
+  .fruits-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mango-card {
+    margin-right: 90px;
+  }
+
+  .img {
+    height: 300px;
+  }
+}
